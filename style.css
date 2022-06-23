@@ -1,0 +1,251 @@
+/*
+.class
+#id
+div, a
+div a
+div.class
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Arial';
+}
+
+p, input, a, button, textarea {
+  font-family: 'Montserrat';
+  font-size: 16px;
+}
+
+input, textarea {
+  font-size: 12px;
+}
+
+/* .image {
+  width: auto;
+  height: 200px;
+  position: relative;
+
+} */
+
+.image {
+  display: block;
+  width: 50%;
+  position: relative;
+  margin: auto;
+  border-radius: 8px;
+  /*box-shadow: 8px 20px 20px 10px #00000066;*/
+}
+
+/* .image {
+  position: absolute;
+} */
+
+.intro {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#about-me {
+  height: 100px;
+  padding: 0 50px;
+  margin-top: 50px;
+}
+
+.about-me-header {
+  margin-bottom: 10px;
+}
+
+#contact {
+  padding: 0 50px;
+}
+
+.contact-header {
+  margin-bottom: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form input, form textarea {
+  margin-bottom: 10px;
+  outline: 0;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding-left: 6px;
+}
+
+form input {
+  height: 40px;
+}
+
+form textarea {
+  height: 80px;
+  padding-top: 7px;
+}
+
+.submit-button {
+  cursor: pointer;
+  background-color: white;
+}
+
+.submit-button:hover {
+  background-color: #d0eefb;
+}
+
+
+/* IF TIME ALLOWS */
+
+nav {
+  padding-top: 10px;
+  position: relative;
+  display: flex;
+  width: 100vw;
+  justify-content: space-evenly;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-weight: 400;
+  position: relative;
+}
+
+nav a::after {
+  content: " ";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 20px;
+  height: 1px;
+  background: black;
+  width: 0%;
+  margin: auto;
+  transition: width 0.5s;
+}
+
+nav a:hover::after {
+  width: 100%;
+}
+
+
+
+
+
+/*
+
+font-size/family
+picture size
+color
+background color
+position - HOW TO CENTER SOMETHING
+margin and padding and border - talk about the box model
+display
+
+inline css vs file
+
+*/
+
+
+.resume {
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 500px;
+  margin-top: 50px;
+}
+
+.experience, .skills {
+  height: 100%;
+  padding: 0 50px;
+}
+
+.experience {
+  width: 70%;
+}
+
+.skills {
+  width: 30%;
+  border-left: 1px solid black;
+}
+
+.resume-header {
+  text-align: center;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.resume-section {
+
+}
+
+.resume-section-header {
+  color: #2d97bf;
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+.resume-section-description1 {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 2px;
+}
+
+.resume-section-description2 {
+  font-size: 14px;
+  margin-bottom: 2px;
+}
+
+.resume-section-info {
+  padding-left: 30px;
+}
+
+footer {
+  margin-top: 50px;
+  height: 200px;
+  background-color: #D04947;
+  position: relative;
+}
+
+footer .copyright {
+  position: absolute;
+  left: 50%;
+  top: 35%;
+  transform: translateX(-50%)
+}
+
+footer .icons {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%);
+  display: flex;
+}
+
+a {
+  color: black;
+}
+
+.icons a {
+  height: 20px;
+  width: 20px;
+  margin: 0 5px;
+}
+
+
+
+
+
+
+
+
+
+/**/
