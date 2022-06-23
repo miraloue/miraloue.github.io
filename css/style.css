@@ -13,7 +13,7 @@ div.class
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Arial';
+  font-family: 'Montserrat';
 }
 
 p, input, a, button, textarea {
@@ -46,9 +46,18 @@ input, textarea {
 } */
 
 .intro {
+  text-align: left;
+  margin-top: 20px;
+  margin-left: 100px;
+  margin-bottom: 20px;
+}
+
+#name-title{
   text-align: center;
   margin-top: 20px;
   margin-bottom: 20px;
+  color: #a2b29f;
+  font-family: 'Fjalla One';
 }
 
 #about-me {
@@ -211,7 +220,7 @@ inline css vs file
 footer {
   margin-top: 50px;
   height: 200px;
-  background-color: #D04947;
+  background-color: #798777;
   position: relative;
 }
 
